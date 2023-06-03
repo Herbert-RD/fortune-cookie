@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biscoito da sorte</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+
+  <main>
+
+    <div id="screen1" class="screen1">
+      <h1>Qual é a sua sorte de hoje?</h1>
+      <p>Abra o biscoito e descubra</p>
+      <div class="fortuneCookie">
+        <button id="fortuneCookieButton">
+          <img src="imgs/fortune-cookie.png" alt="image of a closed fortune cookie">
+        </button>
+      </div>
+    </div>
+
+    <div  id="screen2" class="screen2 hide">
+
+      <h2>Aqui está a sua sorte de hoje:</h2>
+      <div class="luckyMessage">
+        <p id="messageP"></p>
+      </div>
+      <img src="imgs/opened-cookie.png" alt="fortune cookie opened">
+      <button id="tryAgain">Abrir outro biscoito</button>
+    </div>
+
+
+  </main>
+  
+  <script src="main.js"></script>
+</body>
+</html>
